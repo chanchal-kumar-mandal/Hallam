@@ -1,0 +1,38 @@
+.page-header{margin:20px  0 10px 0;}
+@media (min-width: 768px){
+	.navbar {min-height: 100px;}
+	.navbar-right{margin-top:25px;}
+	.sidebar {margin-top: 101px !important;}
+}
+@media (max-width: 767px){
+	.admin-logo-img{width:200px;height:auto;}
+	.navbar-toggle{margin-top:16px;margin-bottom:0px;}
+	.navbar-right{margin-top:10px;}
+}
+.navbar-top-links a, .navbar-top-links a:hover, #side-menu a, #side-menu a:hover {color: #c9302c;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #c9302c;}
+.navbar-default .navbar-toggle:hover {background-color: #c9302c;}
+.navbar-default .navbar-toggle:hover .icon-bar {background-color: #FFF;}
+.navbar-default .navbar-toggle {border-color: #c9302c;}
+.login-page-logo{text-align:center;margin-top:15%;}
+.login-panel {margin-top: 10%;}
+.error-message{text-align:center;color: #a94442;background-color: #f2dede;border:1px solid #ebccd1;padding:5px 10px;margin:10px 0;}
+.success-message{text-align:center;color: #3c763d;background-color: #dff0d8;border:1px solid #d6e9c6;padding:5px 10px;margin:10px 0;}
+.multiselect-container {padding: 0 0 0 10px;height: 150px;overflow: scroll;}
+table.dataTable thead .remove-shorting-icons:after{content:"" !important;}
+.well span.btn-xs{cursor:pointer;}
+.chat> li > .timeline-badge{z-index: 100;width: 50px;height: 50px;border-radius: 50% 50% 50% 50%;text-align: center;
+    font-size: 1.4em;line-height: 50px;color: #fff;}
+.individual-tab-content{padding-top: 15px}
+.individual-tab-heading{width:16px;height:16px;}
+.individual-pannel-footer{margin-bottom:-15px;}
+/****************************** Responsive CSS **************************************/
+@media only screen and (min-width: 768px){
+	.panel-heading-extra-property{}
+}
+@media only screen and (max-width: 767px){
+	.panel-heading-extra-property{height:65px;}
+}
+
+
+
